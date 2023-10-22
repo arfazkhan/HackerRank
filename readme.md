@@ -31,7 +31,7 @@ Feel free to explore the code and explanations in this repository to enhance you
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/problem-solving-algorithms.git
+   git clone https://github.com/arfazkhan/HackerRank.git
 2.  Browse the list of algorithmic problems in the repository
 3. Choose a problem you'd like to learn more about and open th corresponding file.
 4. Inside the file, read the problem statement by following the link provided in the comment at the top.
