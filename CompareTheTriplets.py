@@ -1,18 +1,5 @@
 #Problem Statement:
-#Alice and Bob each created one problem for HackerRank. A reviewer rates the two challenges, awarding points on a scale from 1 to 100 for three categories: problem clarity, originality, and difficulty.
-#The rating for Alice's challenge is the triplet a = (a[0], a[1], a[2]), and the rating for Bob's challenge is the triplet b = (b[0], b[1], b[2]).
-#The task is to find their comparison points by comparing a[0] with b[0], a[1] with b[1], and a[2] with b[2].
-#If a[i] > b[i], then Alice is awarded 1 point.
-#If a[i] < b[i], then Bob is awarded 1 point.
-#If a[i] = b[i], then neither person receives a point.
-#Comparison points is the total points a person earned.
-#Given a and b, determine their respective comparison points.
-
-import math
-import os
-import random
-import re
-import sys
+#https://www.hackerrank.com/challenges/compare-the-triplets/problem?isFullScreen=true
 
 def compareTriplets(a, b):
     alice_points = 0
@@ -26,19 +13,5 @@ def compareTriplets(a, b):
     
     return [alice_points, bob_points]
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    a = list(map(int, input().rstrip().split()))
-
-    b = list(map(int, input().rstrip().split()))
-
-    result = compareTriplets(a, b)
-
-    fptr.write(' '.join(map(str, result)))
-    fptr.write('\n')
-
-    fptr.close()
-
 #Logic:
-#The code compares two lists, a and b, each representing three values. It then calculates and returns a list of two numbers. The first number is the count of positions where a has a greater value than b, and the second number is the count of positions where b has a greater value than a. It uses the variables alice_points and bob_points to keep track of these counts.
+#I'm comparing two sets of scores of two players, Alice and Bob, and I'm keeping track of their points. I've got a loop that goes through three rounds, and in each round, I'm checking who scored higher. If Alice scores more than Bob in a round, I give a point to Alice. If Bob scores more, I give a point to Bob. So, I'm tallying up their scores round by round. In the end, I'm returning a list with two numbers. The first number is Alice's total points, and the second number is Bob's total points. 

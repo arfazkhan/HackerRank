@@ -1,12 +1,5 @@
 #Problem Statement:
-#Given an array of integers, find the sum of its elements.
-
-
-import math
-import os
-import random
-import re
-import sys
+#https://www.hackerrank.com/challenges/simple-array-sum/problem?isFullScreen=true
 
 def simpleArraySum(ar):
     sum = 0
@@ -16,19 +9,5 @@ def simpleArraySum(ar):
 
     return sum
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    ar_count = int(input().strip())
-
-    ar = list(map(int, input().rstrip().split()))
-
-    result = simpleArraySum(ar)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
-
-
-    #Logic:
-    #This code takes a list of numbers, starts with a total sum of 0, and then adds each number in the list to that sum. It returns the final sum, which is the sum of all the numbers in the list.
+#Logic:
+#, I'm given a list of numbers, and my task is to find their sum. To do this, I start with a sum of 0. Then, I loop through each number in the list and add it to the sum. Finally, I return the total sum. It's like adding up all the values in the list and giving back the result.
