@@ -1,6 +1,3 @@
-#ProblemStatement:
-#https://www.hackerrank.com/challenges/migratory-birds/problem?isFullScreen=true
-
 from collections import Counter
 
 def migratoryBirds(arr):
