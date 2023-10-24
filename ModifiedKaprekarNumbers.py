@@ -1,5 +1,3 @@
-#https://www.hackerrank.com/challenges/kaprekar-numbers/problem?isFullScreen=true
-
 def kaprekarNumbers(p, q):
     kaprekar_nums = []
 
@@ -19,4 +17,3 @@ def kaprekarNumbers(p, q):
         print(" ".join(map(str, kaprekar_nums)))
     else:
         print("INVALID RANGE")
-

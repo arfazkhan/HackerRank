@@ -1,6 +1,3 @@
-#ProblemStatement:
-#https://www.hackerrank.com/challenges/non-divisible-subset/problem 
-
 def nonDivisibleSubset(k, s):
     remainder_count = [0] * k
     for num in s:
@@ -15,5 +12,3 @@ def nonDivisibleSubset(k, s):
         result += 1
 
     return result
-
-
