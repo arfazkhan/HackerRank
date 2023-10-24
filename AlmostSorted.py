@@ -1,6 +1,3 @@
-#https://www.hackerrank.com/challenges/almost-sorted/problem?isFullScreen=true
-
-
 def almostSorted(arr):
     n = len(arr)
     is_sorted = sorted(arr)
@@ -24,4 +21,3 @@ def almostSorted(arr):
         return
     
     print("no")
-

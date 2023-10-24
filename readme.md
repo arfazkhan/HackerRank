@@ -20,7 +20,7 @@ The repository contains the solutions to various HackerRank problems.Organize th
 >We go through all possible pairs of teams and calculate how many topics they collectively know. We keep track of the maximum topics known and how many teams share that knowledge. It's like discovering the most knowledgeable teams and counting how many of them are at the top. 
 
 ### AlmostSorted
-  - [Problem Statement]()
+  - [Problem Statement](https://www.hackerrank.com/challenges/almost-sorted/problem?isFullScreen=true)
   - [Solution](./AlmostSorted.py)
   
   
