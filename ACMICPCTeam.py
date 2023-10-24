@@ -19,5 +19,3 @@ def acmTeam(topic):
     
     return [max_topics, team_count]
 
-#logic:
-#We go through all possible pairs of teams and calculate how many topics they collectively know. We keep track of the maximum topics known and how many teams share that knowledge. It's like discovering the most knowledgeable teams and counting how many of them are at the top. 
