@@ -238,7 +238,7 @@ The repository contains the solutions to various HackerRank problems.Organize th
 >I have pre-defined magic squares and I compare the given square with each of them. For each comparison, I calculate the cost by finding the absolute differences between corresponding elements. The minimum cost among all magic squares is what I should be getting. It's like determining the most cost-effective way to convert the given square into a magic square
 
 ### gradingStudents
-  - [Problem Statement]()
+  - [Problem Statement](https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true)
   - [Solution](./gradingStudents.py)
   
   
@@ -246,7 +246,7 @@ The repository contains the solutions to various HackerRank problems.Organize th
 >In this code, I'm simplifying grades for students. For each grade, I check if it's less than 38; if it is, I keep it unchanged. If it's 38 or higher, I find the next multiple of 5 and see if the difference is less than 3. If it is, I round up to that multiple of 5; otherwise, I keep the grade as it is. 
 
 ### HaloweenSale
-  - [Problem Statement]()
+  - [Problem Statement](https://www.hackerrank.com/challenges/halloween-sale/problem?isFullScreen=true)
   - [Solution](./HaloweenSale.py)
   
   

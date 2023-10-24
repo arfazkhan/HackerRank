@@ -1,6 +1,3 @@
-#ProblemStatement:
-# https://www.hackerrank.com/challenges/grading/problem?isFullScreen=true
-
 def gradingStudents(grades):
     rounded_grades = []
     for grade in grades:
@@ -13,4 +10,3 @@ def gradingStudents(grades):
             else:
                 rounded_grades.append(grade)
     return rounded_grades
-
