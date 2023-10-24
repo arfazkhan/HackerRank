@@ -442,16 +442,16 @@ The repository contains the solutions to various HackerRank problems.Organize th
   - Explanation: 
 >I've created a list called numbers mapping integers to their word equivalents from "zero" to "nineteen" and special cases such as "quarter." The function takes two inputs, h for hours and m for minutes. The logic handles various cases: if m is 0, it returns the time in the format "{hour} o' clock." For other minutes, it checks if m corresponds to 15, 30, or 45 and outputs the time accordingly, like "quarter past," "half past," or "quarter to." For minutes less than 30, it converts the minutes to words, considering special cases and multiples of ten, and constructs the time with the words "past." For minutes greater than 30, it calculates the remaining minutes to the next hour, converts them to words, and constructs the time with the words "to." The function handles different minute scenarios and produces the time in words as per the given input hours and minutes.
 
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
+### SubarrayDivisions
+  - [Problem Statement](https://www.hackerrank.com/challenges/the-birthday-bar/problem)
+  - [Solution](./SubarrayDivisions.py)
   
   
   - Explanation: 
->abc
+>nitially, I take three inputs: a list s, which contains integers, and two integers d and m. The code initializes a count variable to 0 and uses a for loop to iterate through the list s, examining segments of length m. It ensures the loop stops before reaching the last m elements, ensuring there are enough elements to form a complete segment of length m. Inside the loop, the code extracts a contiguous segment of length m and calculates the sum of the elements within that segment using sum(segment). If the sum of the current segment equals the target value d, it increments the count by 1. Finally, the code returns the count, which represents the number of segments in the list s that have a sum equal to d and a length of m.
 
 ### Problem
-  - [Problem Statement]()
+  - [Problem Statement](https://www.hackerrank.com/challenges/bomber-man/problem?isFullScreen=true)
   - [Solution](./s.py)
   
   
