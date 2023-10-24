@@ -384,13 +384,13 @@ The repository contains the solutions to various HackerRank problems.Organize th
   - Explanation: 
 >In this function, I'm determining which prisoner gets poisoned when distributing m sweets among n prisoners starting from prisoner s. First, I calculate the remaining sweets after distributing them equally among all prisoners using the modulo operation m mod n. Then, I find the position of the poisoned prisoner by adding the remaining sweets to the starting prisoner position (s−1) and taking the result n. If the calculated position is 0, indicating it exceeds the total number of prisoners, I set the poisoned prisoner to the last prisoner. This ensures a fair distribution of sweets among the prisoners and accurately identifies the prisoner who receives the poisoned sweet.
 
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
+### SequenceEquation
+  - [Problem Statement](https://www.hackerrank.com/challenges/permutation-equation/problem?isFullScreen=true)
+  - [Solution](./SequenceEquation.py)
   
   
   - Explanation: 
->abc
+>In this function, I'm calculating the second permutation of a given sequence p. First, I create a dictionary, pos_dict, where the keys are the elements of p and the values are their corresponding positions in the sequence. Then, I iterate through the range from 1 to the length of p, finding the second permutation by using pos_dict twice. For each x, I find its position in pos_dict, and then find the position of that result again in pos_dict. This computes the second permutation and stores the results in the list "result". It's a systematic way to find the desired permutation of the given sequence p.
 
 ### Problem
   - [Problem Statement]()
