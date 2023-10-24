@@ -352,7 +352,7 @@ The repository contains the solutions to various HackerRank problems.Organize th
 >I want to understand the proportions of positive, negative, and zero values. So, I'm counting how many numbers fall into each of these categories. Then, I calculate and print the fractions of positive, negative, and zero values relative to the total number of elements
 
 ### QueensAttack2
-  - [Problem Statement]()
+  - [Problem Statement](https://www.hackerrank.com/challenges/queens-attack-2/problem?isFullScreen=true)
   - [Solution](./QueensAttack2.py)
   
   

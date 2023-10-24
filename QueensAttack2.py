@@ -1,5 +1,3 @@
-#ProblemStatement:
-#https://www.hackerrank.com/challenges/queens-attack-2/problem?isFullScreen=true
 
 def queensAttack(n, k, r_q, c_q, obstacles):
     attacked_squares = 0
@@ -14,4 +12,3 @@ def queensAttack(n, k, r_q, c_q, obstacles):
                 break
             attacked_squares += 1
     return attacked_squares
-
