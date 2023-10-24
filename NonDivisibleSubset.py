@@ -17,5 +17,3 @@ def nonDivisibleSubset(k, s):
     return result
 
 
-#logic:
-# To dentify a non-divisible subset within a given list. We maintain an array to count the remainders of elements when divided by "k" Then, we calculate the result by considering the minimum of remainders that are evenly divisible by "k" and adding the maximum count for remainders that have complementary pairs. If "k" is even, add 1 to the result. This helps us find the largest non-divisible subset within the given list. It's about determining which elements can't be divided evenly by "k" and forming the largest possible subset from them.

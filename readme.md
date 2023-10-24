@@ -218,64 +218,46 @@
 
   - [Solution](./MinMaxSum.py)
   ### - Explanation: 
->kla kli kli klu l=klu
+>First, I sort the numbers in ascending order. Then, I find the sum of the smallest four numbers for the minimum sum and the sum of the largest four numbers for the maximum sum. Finally, I print these two sums.
 
 ### ModifiedKaprekarNumbers
 
   - [Solution](./ModifiedKaprekarNumbers.py)
   ### - Explanation: 
->kla kli kli klu l=klu
+>I start by creating an empty list to store the Kaprekar numbers. Then, I iterate over each number in the range from ‘p’ to ‘q’ inclusive. For each number, I square it and convert both the number and its square into strings. I then split the string representation of the square into two parts: a right part consisting of the last ‘d’ digits (where ‘d’ is the number of digits in the original number) and a left part consisting of the remaining digits. If there are no remaining digits, I consider the left part to be zero. I then check if the sum of the right and left parts equals the original number. If it does, I append the number to my list of Kaprekar numbers. After checking all numbers in the range, if I have found any Kaprekar numbers, I print them out. Otherwise, I print “INVALID RANGE”.
 
 ### NonDivisibleSubset
 
   - [Solution](./NonDivisibleSubset.py)
   ### - Explanation: 
->kla kli kli klu l=klu
+>To identify a non-divisible subset within a given list. We maintain an array to count the remainders of elements when divided by "k" Then, we calculate the result by considering the minimum of remainders that are evenly divisible by "k" and adding the maximum count for remainders that have complementary pairs. If "k" is even, add 1 to the result. This helps us find the largest non-divisible subset within the given list. It's about determining which elements can't be divided evenly by "k" and forming the largest possible subset from them.
 
 ### NumberLineJumps
 
   - [Solution](./NumberLineJumps.py)
   ### - Explanation: 
->kla kli kli klu l=klu
+>In this code, I'm helping two kangaroos, each starting at a different position and jumping with a specific distance. I want to know if they'll ever land on the same spot. First, I check if they have the same jumping distance; if they do, I check if they're already at the same position, and if they are, It will return "YES," indicating they'll meet. If their jumping distances are different, I calculate whether the relative distance between them and the relative speed allows them to meet at some point. If the claculations are correct, it will return "YES" otherwise "NO."
 
 ### organizingContainersofBalls
 
   - [Solution](./organizingContainersofBalls.py)
   ### - Explanation: 
->kla kli kli klu l=klu
+>In this function, I'm determining whether it's possible to organize the balls within the containers in a specific way. For each container, I calculate the total number of balls and for each type of ball, I calculate the total number in all containers. By sorting these sums, I can compare whether the total number of balls in each container matches the total number of each type of ball across all containers. If the sorted sums match, it's possible to organize the balls as required, and the function returns "Possible." Otherwise, it returns "Impossible." This approach checks the distribution of balls within containers to determine if a specific organization is achievable.
 
 ### PickingNumbers
 
   - [Solution](./PickingNumbers.py)
   ### - Explanation: 
->kla kli kli klu l=klu
+>In this function, we're finding the longest subarray where the absolute difference between any two elements is at most 1. We create a dictionary to count the occurrences of each number in the array. Then, we iterate through the dictionary and check for the maximum length by considering the count of the current number and the count of the number one greater. This helps us find the maximum possible length of such a subarray
 
 ### PlusMinus
 
   - [Solution](./PlusMinus.py)
   ### - Explanation: 
->kla kli kli klu l=klu
+>I want to understand the proportions of positive, negative, and zero values. So, I'm counting how many numbers fall into each of these categories. Then, I calculate and print the fractions of positive, negative, and zero values relative to the total number of elements
 
-### QueensAttack2.py
+### QueensAttack2
 
   - [Solution](./QueensAttack2.py)
-  ### - Explanation: 
->kla kli kli klu l=klu
-
-### MigratoryBirds
-
-  - [Solution](./MigratoryBirds.py)
-  ### - Explanation: 
->kla kli kli klu l=klu
-
-### MigratoryBirds
-
-  - [Solution](./MigratoryBirds.py)
-  ### - Explanation: 
->kla kli kli klu l=klu
-
-### MigratoryBirds
-
-  - [Solution](./MigratoryBirds.py)
   ### - Explanation: 
 >For calculating the number of squares a queen can attack on an n×n chessboard. First define the possible directions a queen can move: horizontally, vertically, diagonally. Then,  use these directions to iterate through the board, considering obstacles. For each direction, move the queen until she encounters an obstacle, reaching the boundary, or completes the diagonal. Then count the squares she can attack in each direction and return the total. 

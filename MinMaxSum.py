@@ -1,5 +1,5 @@
 #ProblemSatement:
-#
+# https://www.hackerrank.com/challenges/mini-max-sum/problem?isFullScreen=true
 
 def miniMaxSum(arr):
     arr.sort()
@@ -8,5 +8,3 @@ def miniMaxSum(arr):
     
     print(min_sum, max_sum)
 
-#Logic:
-#First, I sort the numbers in ascending order. Then, I find the sum of the smallest four numbers for the minimum sum and the sum of the largest four numbers for the maximum sum. Finally, I print these two sums.
