@@ -110,7 +110,7 @@ The repository contains the solutions to various HackerRank problems.Organize th
 
   - [Solution](./CompareTheTriplets.py)
   ### - Explanation: 
->kla kli kli klu l=klu
+>I'm simplifying a collection of sticks by repeatedly cutting the longest ones until there are none left. I start with a list of all the stick lengths and initialize an empty result list. As long as there are sticks left, I count them, add the count to the result, find the length of the shortest stick, and update the list with the remaining sticks after cutting the minimum length from each. The result is a list of how many sticks are cut at each step, effectively reducing the sticks to the smallest size. It's like a step-by-step process to minimize the sticks.
 
 ### cutTheSticks
 
