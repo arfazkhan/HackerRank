@@ -18,6 +18,3 @@ def plusMinus(arr):
     print("{:.6f}".format(positive_count / total_elements))
     print("{:.6f}".format(negative_count / total_elements))
     print("{:.6f}".format(zero_count / total_elements))
-
-#Logic:
-# I want to understand the proportions of positive, negative, and zero values. So, I'm counting how many numbers fall into each of these categories. Then, I calculate and print the fractions of positive, negative, and zero values relative to the total number of elements
