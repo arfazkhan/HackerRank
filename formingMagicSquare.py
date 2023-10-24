@@ -24,5 +24,3 @@ def formingMagicSquare(s):
 
     return min_cost
 
-#Logic:
-#I have pre-defined magic squares and I compare the given square with each of them. For each comparison, I calculate the cost by finding the absolute differences between corresponding elements. The minimum cost among all magic squares is what I should be getting. It's like determining the most cost-effective way to convert the given square into a magic square
