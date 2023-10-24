@@ -141,7 +141,7 @@ The repository contains the solutions to various HackerRank problems.Organize th
 >First, I clean up the ranked list by removing duplicate scores, ensuring a simplified and efficient ranking. Then, I start at the end of the leaderboard and, for each of the player's scores, I work backward to find their rank by comparing their score with the scores on the leaderboard. The result is a list of the player's ranks for each score. It's like guiding the player through the leaderboard to determine their position as they compete.
 
 ### CompareTheTriplets
-  - [Problem Statement]()
+  - [Problem Statement](https://www.hackerrank.com/challenges/compare-the-triplets/problem?isFullScreen=true)
   - [Solution](./CompareTheTriplets.py)
   
   
@@ -149,14 +149,14 @@ The repository contains the solutions to various HackerRank problems.Organize th
 >I'm comparing two sets of scores of two players, Alice and Bob, and I'm keeping track of their points. I've got a loop that goes through three rounds, and in each round, I'm checking who scored higher. If Alice scores more than Bob in a round, I give a point to Alice. If Bob scores more, I give a point to Bob. So, I'm tallying up their scores round by round. In the end, I'm returning a list with two numbers. The first number is Alice's total points, and the second number is Bob's total points. 
 
 ### cutTheSticks
-  - [Problem Statement]()
+  - [Problem Statement](https://www.hackerrank.com/challenges/cut-the-sticks/)
   - [Solution](./cutTheSticks.py)
   
   
   - Explanation: 
 >I Imagined this code as a tool for a game board. In my approach, I look at each row and add the value from the main diagonal and its mirror position on the secondary diagonal. Then, I find the absolute difference between these sums. It's like comparing special moves in a game, helping me figure out which diagonal strategy is more powerful.
 
-### designerPdfViewer
+### DiagonalDifference
   - [Problem Statement](https://www.hackerrank.com/challenges/diagonal-difference/problem)
   - [Solution](./DiagonalDifference.py)
   

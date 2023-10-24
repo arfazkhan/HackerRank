@@ -1,6 +1,3 @@
-#ProblemStatement:
-#https://www.hackerrank.com/challenges/cut-the-sticks/
-
 def cutTheSticks(arr):
     result = [] 
 

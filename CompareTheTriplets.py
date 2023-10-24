@@ -1,6 +1,3 @@
-#Problem Statement:
-#https://www.hackerrank.com/challenges/compare-the-triplets/problem?isFullScreen=true
-
 def compareTriplets(a, b):
     alice_points = 0
     bob_points = 0
