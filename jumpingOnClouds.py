@@ -1,6 +1,3 @@
-#ProblemStatement:
-#https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited/problem?isFullScreen=true
-
 def jumpingOnClouds(c, k):
     n = len(c)
     energy = 100 
@@ -15,4 +12,3 @@ def jumpingOnClouds(c, k):
         if current_cloud == 0:
             break  
     return energy
-
