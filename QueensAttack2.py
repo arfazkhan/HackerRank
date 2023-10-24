@@ -15,6 +15,3 @@ def queensAttack(n, k, r_q, c_q, obstacles):
             attacked_squares += 1
     return attacked_squares
 
-
-#logic:
-# For calculating the number of squares a queen can attack on an n×n chessboard. First define the possible directions a queen can move: horizontally, vertically, diagonally. Then,  use these directions to iterate through the board, considering obstacles. For each direction, move the queen until she encounters an obstacle, reaching the boundary, or completes the diagonal. Then count the squares she can attack in each direction and return the total. 

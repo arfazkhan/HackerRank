@@ -56,7 +56,7 @@
 
   - [Solution](./BeautifulTriplets.py)
   ### - Explanation: 
->kla kli kli klu l=klu
+>I start by converting the array into a set for faster lookups. Then, I iterate over each element in the array. For each element, I check if the element incremented by 'd' and the element incremented by '2d' are both present in the set. If they are, it means I've found a beautiful triplet, so I increment my count. This approach allows me to find all beautiful triplets in the array with just a single pass, significantly improving the efficiency of the algorithm.
 
 ### betweenTwoSets
 
@@ -278,5 +278,4 @@
 
   - [Solution](./MigratoryBirds.py)
   ### - Explanation: 
->kla kli kli klu l=klu
-
+>For calculating the number of squares a queen can attack on an n×n chessboard. First define the possible directions a queen can move: horizontally, vertically, diagonally. Then,  use these directions to iterate through the board, considering obstacles. For each direction, move the queen until she encounters an obstacle, reaching the boundary, or completes the diagonal. Then count the squares she can attack in each direction and return the total. 
