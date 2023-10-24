@@ -7,5 +7,3 @@ def extraLongFactorials(n):
         a *= i
     print(a)
 
-#Logic:
-#I'm calculating and printing the factorial of a given number "n" I start with a value of 1 and then multiply it by each integer from 1 to "n" 
