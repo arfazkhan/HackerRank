@@ -182,19 +182,20 @@
 
   - [Solution](./HaloweenSale.py)
   ### - Explanation: 
->kla kli kli klu l=klu
+>I start by setting the count of games I can buy to zero and the current price of the game to 'p'. Then, I enter a loop that continues as long as my remaining money 's' is greater than or equal to the current price. In each iteration of the loop, I increment my game count by one, subtract the current price from my money, and update the current price to be either its value minus 'd' or 'm', whichever is greater. This ensures that the price decreases by 'd' after each purchase until it reaches 'm'. The loop ends when I don't have enough money to buy a game at the current price. Finally, I return the count of games I can buy.
 
 ### jumpingOnClouds
 
   - [Solution](./jumpingOnClouds.py)
   ### - Explanation: 
->kla kli kli klu l=klu
+>In this code, we imagine simulating a game where I jump on clouds. I start with 100 units of energy. I iterate through clouds by jumping k steps at a time, looping back to the start if needed. For each jump, I decrease my energy by 1. If I land on a thundercloud (indicated by 1), I lose 2 energy. I repeat until I return to the initial cloud (cloud 0). The final energy level is my output, representing my energy after these jumps.
+
 
 ### LibraryFine
 
   - [Solution](./LibraryFine.py)
   ### - Explanation: 
->kla kli kli klu l=klu
+>I'm calculating the fine for a library book return. I compare the return date (d1, m1, y1) with the due date (d2, m2, y2). If the return is on or before the due date, there's no fine (return 0). If the return is within the same month, I calculate the fine based on the number of days late. If the return is in a later month of the same year, I calculate the fine based on the number of months late. If the return is in a later year, there's a fine of 10000.
 
 ### LisasWorkbook
 
