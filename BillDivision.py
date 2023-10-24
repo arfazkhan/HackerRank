@@ -1,6 +1,3 @@
-#ProblemStatement:
-#https://www.hackerrank.com/challenges/bon-appetit/problem?isFullScreen=true
-
 def bonAppetit(bill, k, b):
     total_cost = sum(bill) - bill[k]
 

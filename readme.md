@@ -93,7 +93,7 @@ The repository contains the solutions to various HackerRank problems.Organize th
 >I start by converting the string ‘w’ into a list of characters. Then, I iterate from the end of the list to the beginning, looking for the first character that is lexicographically smaller than its next character. If I don’t find such a character, it means that ‘w’ is the last permutation and I return “no answer”. If I do find such a character, I then iterate from the end of the list to this character, looking for the smallest character that is greater than it. I swap these two characters and then reverse the part of the list that comes after the first swapped character. Finally, I join the list back into a string and return it. This gives me the next lexicographically greater permutation of ‘w’.
 
 ### BillDivision
-  - [Problem Statement]()
+  - [Problem Statement](https://www.hackerrank.com/challenges/bon-appetit/problem?isFullScreen=true)
   - [Solution](./BillDivision.py)
   
   
