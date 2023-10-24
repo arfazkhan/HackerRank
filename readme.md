@@ -116,7 +116,8 @@ The repository contains the solutions to various HackerRank problems.Organize th
 
   - [Solution](./cutTheSticks.py)
   ### - Explanation: 
->kla kli kli klu l=klu
+>First, I find the maximum height of the letters in the word from the given heights list. Then, I multiply this maximum height by the length of the word to get the total area. It's like finding the highlighted space in the PDF viewer, where the height is determined by the tallest letter and the width is the length of the word.
+
 
 ### designerPdfViewer
   - [Problem Statement](https://www.hackerrank.com/challenges/diagonal-difference/problem)
