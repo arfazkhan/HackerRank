@@ -31,7 +31,8 @@
 
   - [Solution](./AppendAndDelete.py)
   ### - Explanation: 
-        kla kla kli kli klu l=klu
+        First, I calculate total operations needed for deletion and appending. Then, to determine if it's possible within the given limit "k", I check if there are enough actions to cover the total changes. If the remaining actions after all changes are even, it returns "Yes." Additionally, if there are more actions available than the combined length of both strings, it also returns "Yes." Otherwise, it returns "No." It's all about ensuring I have the right moves to transform one string into another without interfering the prescribed limit.
+
 
 ### AppleAndOrange
 
