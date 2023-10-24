@@ -392,37 +392,39 @@ The repository contains the solutions to various HackerRank problems.Organize th
   - Explanation: 
 >In this function, I'm calculating the second permutation of a given sequence p. First, I create a dictionary, pos_dict, where the keys are the elements of p and the values are their corresponding positions in the sequence. Then, I iterate through the range from 1 to the length of p, finding the second permutation by using pos_dict twice. For each x, I find its position in pos_dict, and then find the position of that result again in pos_dict. This computes the second permutation and stores the results in the list "result". It's a systematic way to find the desired permutation of the given sequence p.
 
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
+### serviceLane
+  - [Problem Statement](https://www.hackerrank.com/challenges/service-lane/problem?isFullScreen=true)
+  - [Solution](./serviceLane.py)
   
   
   - Explanation: 
->abc
+>In this function, we're given a list of cases, where each case signifies a specific segment within the width list. To find the minimum width in each segment, I loop through the cases. For every case, I extract the start and end indices, then use Python's min function to find the smallest width within that segment of the width list. These minimum widths are collected in a results list. After processing all cases, I return this list containing the minimum widths for each specified segment. it efficiently calculates and provides the minimum widths for various segments, making it straightforward and practical. 
+>Note: fix the predefined argument with "result = serviceLane(n, cases, width)" instead of "result = serviceLane(n, cases)" or else you get runtime error.
 
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
-  
-  
-  - Explanation: 
->abc
 
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
+### sherlockAndSquares
+  - [Problem Statement](https://www.hackerrank.com/challenges/sherlock-and-squares/submissions/code/352007292)
+  - [Solution](./sherlockAndSquares.py)
   
   
   - Explanation: 
->abc
+>I'm counting the number of perfect squares that fall within a given range from a to b. I start with a count of 0 and increment a current number, checking its square in each iteration. If the square is within the range from a to b, I increment the count. When the square exceeds b, exit the loop.
 
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
+### SimpleArraySum
+  - [Problem Statement](https://www.hackerrank.com/challenges/simple-array-sum/problem?isFullScreen=true)
+  - [Solution](./SimpleArraySum.py)
   
   
   - Explanation: 
->abc
+>I'm given a list of numbers, and my task is to find their sum. To do this, I start with a sum of 0. Then, I loop through each number in the list and add it to the sum. Finally, I return the total sum. It's like adding up all the values in the list and giving back the result.
+
+### SolveMeFirst
+  - [Problem Statement](https://www.hackerrank.com/challenges/solve-me-first/problem?isFullScreen=true)
+  - [Solution](./SolveMeFirst.py)
+  
+  
+  - Explanation: 
+>This code takes two numbers from the user, adds them together, and then displays the result. It uses a simple function, solveMeFirst, to perform the addition.
 
 ### Problem
   - [Problem Statement]()
