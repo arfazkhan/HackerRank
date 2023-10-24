@@ -10,5 +10,3 @@ def angryProfessor(k, a):
     else:
         return "NO" 
     
-#Logic:
-#To determine whether the professor is angry or not, We count how many students arrive on time by looking at their arrival times. If the number of on-time students is less than the "k", the professor is angry, and we return "YES." Otherwise, if enough students are on time, we return "NO."

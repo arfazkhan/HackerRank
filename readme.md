@@ -14,3 +14,268 @@
   - [Solution](./ACMICPCTeam.py)
   ### - Explanation: 
         We go through all possible pairs of teams and calculate how many topics they collectively know. We keep track of the maximum topics known and how many teams share that knowledge. It's like discovering the most knowledgeable teams and counting how many of them are at the top. 
+
+### AlmostSorted
+
+  - [Solution](./AlmostSorted.py)
+  ### - Explanation: 
+        In this code, we begin by checking if the input array arr is sorted in its current state. We do this by comparing it to a version of itself that has been sorted, which we call is_sorted. If we find that the two arrays are identical, that's a clear sign that our input array is already sorted, and we print 'yes' to confirm this. But if arr is not sorted, we proceed to identify the specific positions where it differs from the sorted version. These differing positions are stored in the diff_indices list. Our next step is to examine these differing indices: if there are exactly two of them, it implies that a simple swap operation can sort the array. In such a case, we print 'yes' and provide the details of the swap operation. However, if there are more than two differing indices, a swap won't work, so we attempt to reverse a segment of the array and check if the result is sorted. If it is, we print 'yes' and specify the reverse operation. If none of these conditions are met, we conclude that it's not possible to sort the array with a minimal number of operations, and we print 'no'.
+
+### angryProfessor
+
+  - [Solution](./angryProfessor.py)
+  ### - Explanation: 
+        To determine whether the professor is angry or not, We count how many students arrive on time by looking at their arrival times. If the number of on-time students is less than the "k", the professor is angry, and we return "YES." Otherwise, if enough students are on time, we return "NO."
+
+### AppendAndDelete.py
+
+  - [Solution](./AppendAndDelete.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### AppleAndOrange
+
+  - [Solution](./AppleAndOrange.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### AVeryBigSum
+
+  - [Solution](./AVeryBigSum.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### beautifulDays
+
+  - [Solution](./beautifulDays.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### BeautifulTriplets
+
+  - [Solution](./BeautifulTriplets.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### betweenTwoSets
+
+  - [Solution](./betweenTwoSets.py)
+  ### - Explanation: 
+        kla kla kli kli klu 
+
+### BiggerIsGreater
+
+  - [Solution](./BiggerIsGreater.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### BillDivision
+
+  - [Solution](./BillDivision.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### BirthdayCakeCandles
+
+  - [Solution](./BirthdayCakeCandles.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### BreakingTheRecords
+
+  - [Solution](./BreakingTheRecords.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### ChocolateFeast
+
+  - [Solution](./ChocolateFeast.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### circularArrayRotation
+
+  - [Solution](./circularArrayRotation.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### climbingLeaderboard
+
+  - [Solution](./climbingLeaderboard.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### CompareTheTriplets
+
+  - [Solution](./CompareTheTriplets.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### cutTheSticks
+
+  - [Solution](./cutTheSticks.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### designerPdfViewer
+
+  - [Solution](./designerPdfViewer.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### DivisibleSumPairs
+
+  - [Solution](./DivisibleSumPairs.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### Encryption
+
+  - [Solution](./Encryption.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### EqualizeTheArray
+
+  - [Solution](./EqualizeTheArray.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### extraLongFactorials
+
+  - [Solution](./extraLongFactorials.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### FairRations
+
+  - [Solution](./FairRations.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### FindDigits
+
+  - [Solution](./FindDigits.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### flatlandSpaceStations
+
+  - [Solution](./flatlandSpaceStations.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### formingMagicSquare
+
+  - [Solution](./formingMagicSquare.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### gradingStudents
+
+  - [Solution](./gradingStudents.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### HaloweenSale
+
+  - [Solution](./HaloweenSale.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### jumpingOnClouds
+
+  - [Solution](./jumpingOnClouds.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### LibraryFine
+
+  - [Solution](./LibraryFine.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### LisasWorkbook
+
+  - [Solution](./LisasWorkbook.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### MigratoryBirds
+
+  - [Solution](./MigratoryBirds.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### MinimumDistances
+
+  - [Solution](./MinimumDistances.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### MinMaxSum
+
+  - [Solution](./MinMaxSum.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### ModifiedKaprekarNumbers
+
+  - [Solution](./ModifiedKaprekarNumbers.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### NonDivisibleSubset
+
+  - [Solution](./NonDivisibleSubset.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### NumberLineJumps
+
+  - [Solution](./NumberLineJumps.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### organizingContainersofBalls
+
+  - [Solution](./organizingContainersofBalls.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### PickingNumbers
+
+  - [Solution](./PickingNumbers.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### PlusMinus
+
+  - [Solution](./PlusMinus.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### QueensAttack2.py
+
+  - [Solution](./QueensAttack2.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### MigratoryBirds
+
+  - [Solution](./MigratoryBirds.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### MigratoryBirds
+
+  - [Solution](./MigratoryBirds.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
+### MigratoryBirds
+
+  - [Solution](./MigratoryBirds.py)
+  ### - Explanation: 
+        kla kla kli kli klu l=klu
+
