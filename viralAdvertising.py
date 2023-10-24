@@ -8,6 +8,3 @@ def viralAdvertising(n):
         shared = liked * 3  
 
     return cumulative_likes
-
-#Logic:
-#
