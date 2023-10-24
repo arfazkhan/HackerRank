@@ -1,5 +1,3 @@
-#ProblemStatement:
-#https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem?isFullScreen=true
 def organizingContainers(container):
     n = len(container)
     container_sums = [sum(container[i]) for i in range(n)]
@@ -9,4 +7,3 @@ def organizingContainers(container):
     ball_sums.sort()
 
     return "Possible" if container_sums == ball_sums else "Impossible"
-
