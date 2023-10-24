@@ -1,5 +1,3 @@
-#https://www.hackerrank.com/challenges/flatland-space-stations/problem
-
 def flatlandSpaceStations(n, c):
     c.sort()
     max_distance = max(c[0], n - 1 - c[-1])
