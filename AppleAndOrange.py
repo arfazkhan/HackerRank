@@ -13,5 +13,3 @@ countO = sum(1 for d in oranges if s <= b + d <= t)
 print(countA)
 print(countO)
 
-#Logic
-# In this code, First the values are read for the house and tree positions (s, t), the apple and orange tree positions (a, b), the number of apples and oranges (m, n), and the lists of apple and orange distances. Then, we count how many apples and oranges hit the house. If the distance from the tree (a or b) plus the fruit's distance (d) is within the range of the house (between s and t), we add 1 to the count. Finally, we get how many apples and oranges made it to the house
