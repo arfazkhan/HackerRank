@@ -1,6 +1,3 @@
-#ProoblemStatement:
-#https://www.hackerrank.com/challenges/plus-minus/problem?isFullScreen=true
-
 def plusMinus(arr):
     positive_count = 0
     negative_count = 0
