@@ -110,20 +110,21 @@ The repository contains the solutions to various HackerRank problems.Organize th
 
   - [Solution](./CompareTheTriplets.py)
   ### - Explanation: 
->I'm simplifying a collection of sticks by repeatedly cutting the longest ones until there are none left. I start with a list of all the stick lengths and initialize an empty result list. As long as there are sticks left, I count them, add the count to the result, find the length of the shortest stick, and update the list with the remaining sticks after cutting the minimum length from each. The result is a list of how many sticks are cut at each step, effectively reducing the sticks to the smallest size. It's like a step-by-step process to minimize the sticks.
+>I'm comparing two sets of scores of two players, Alice and Bob, and I'm keeping track of their points. I've got a loop that goes through three rounds, and in each round, I'm checking who scored higher. If Alice scores more than Bob in a round, I give a point to Alice. If Bob scores more, I give a point to Bob. So, I'm tallying up their scores round by round. In the end, I'm returning a list with two numbers. The first number is Alice's total points, and the second number is Bob's total points. 
 
 ### cutTheSticks
 
   - [Solution](./cutTheSticks.py)
   ### - Explanation: 
->First, I find the maximum height of the letters in the word from the given heights list. Then, I multiply this maximum height by the length of the word to get the total area. It's like finding the highlighted space in the PDF viewer, where the height is determined by the tallest letter and the width is the length of the word.
+>I Imagined this code as a tool for a game board. In my approach, I look at each row and add the value from the main diagonal and its mirror position on the secondary diagonal. Then, I find the absolute difference between these sums. It's like comparing special moves in a game, helping me figure out which diagonal strategy is more powerful.
+
 
 
 ### designerPdfViewer
   - [Problem Statement](https://www.hackerrank.com/challenges/diagonal-difference/problem)
   - [Solution](./designerPdfViewer.py)
   ### - Explanation: 
->I Imagined this code as a tool for a game board. In my approach, I look at each row and add the value from the main diagonal and its mirror position on the secondary diagonal. Then, I find the absolute difference between these sums. It's like comparing special moves in a game, helping me figure out which diagonal strategy is more powerful.
+>First, I find the maximum height of the letters in the word from the given heights list. Then, I multiply this maximum height by the length of the word to get the total area. It's like finding the highlighted space in the PDF viewer, where the height is determined by the tallest letter and the width is the length of the word.
 
 ### DivisibleSumPairs
   - [Problem Statement](https://www.hackerrank.com/challenges/divisible-sum-pairs)
