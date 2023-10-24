@@ -140,7 +140,7 @@ The repository contains the solutions to various HackerRank problems.Organize th
 
   - [Solution](./EqualizeTheArray.py)
   ### - Explanation: 
->kla kli kli klu l=klu
+>In this code, I'm finding the minimum number of deletions needed to make all elements in an array equal. First, I create a dictionary to count the occurrences of each element, and then identify the most frequently occurring element. The deletions required will be the total number of elements minus the count of the most frequent element. This approach efficiently helps me determine the minimal deletions to equalize the array. It's like figuring out how many elements I need to remove to have them all the same
 
 ### extraLongFactorials
 
