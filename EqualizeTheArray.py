@@ -1,6 +1,3 @@
-#ProblemStateent:
-#https://www.hackerrank.com/challenges/equality-in-a-array/problem?isFullScreen=true
-
 def equalizeArray(arr):
     count_dict = {}
     for num in arr:
@@ -11,4 +8,3 @@ def equalizeArray(arr):
     max_count = max(count_dict.values())
     deletions = len(arr) - max_count
     return deletions
-
