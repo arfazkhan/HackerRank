@@ -1,6 +1,3 @@
-#ProblemStatement:
-#https://www.hackerrank.com/challenges/picking-numbers/problem?isFullScreen=true
-
 def pickingNumbers(a):
     count_dict = {}
     max_length = 0
