@@ -1,6 +1,3 @@
-#ProblemStatement:
-#https://www.hackerrank.com/challenges/utopian-tree/problem?isFullScreen=true
-
 def utopianTree(n):
     height = 1  
 
