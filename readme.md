@@ -263,7 +263,7 @@ The repository contains the solutions to various HackerRank problems.Organize th
 
 
 ### LibraryFine
-  - [Problem Statement]()
+  - [Problem Statement](https://www.hackerrank.com/challenges/library-fine)
   - [Solution](./LibraryFine.py)
   
   
