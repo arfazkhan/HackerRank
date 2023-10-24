@@ -1,6 +1,3 @@
-#ProblemStatement:
-#https://www.hackerrank.com/challenges/magic-square-forming/problem?isFullScreen=true
-
 def formingMagicSquare(s):
     magic_squares = [
         [[2, 7, 6], [9, 5, 1], [4, 3, 8]],
@@ -23,4 +20,3 @@ def formingMagicSquare(s):
         min_cost = min(min_cost, cost)
 
     return min_cost
-
