@@ -14,5 +14,3 @@ def gradingStudents(grades):
                 rounded_grades.append(grade)
     return rounded_grades
 
-#Logic:
-#In this code, I'm simplifying grades for students. For each grade, I check if it's less than 38; if it is, I keep it unchanged. If it's 38 or higher, I find the next multiple of 5 and see if the difference is less than 3. If it is, I round up to that multiple of 5; otherwise, I keep the grade as it is. 
