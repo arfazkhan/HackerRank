@@ -1,4 +1,3 @@
-#https://www.hackerrank.com/challenges/lisa-workbook/problem?isFullScreen=true
 def workbook(n, k, arr):
     special_problems = 0
     page = 1
