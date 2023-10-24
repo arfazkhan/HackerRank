@@ -1,5 +1,3 @@
-#https://www.hackerrank.com/challenges/beautiful-triplets/problem?isFullScreen=true
-
 def beautifulTriplets(d, arr):
     count = 0
     arr_set = set(arr)  
