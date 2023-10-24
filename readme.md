@@ -427,12 +427,12 @@ The repository contains the solutions to various HackerRank problems.Organize th
 >This code takes two numbers from the user, adds them together, and then displays the result. It uses a simple function, solveMeFirst, to perform the addition.
 
 ### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
+  - [Problem Statement](https://www.hackerrank.com/challenges/staircase/problem?isFullScreen=true)
+  - [Solution](./Staircase.py)
   
   
   - Explanation: 
->abc
+>I'm creating a staircase pattern with n steps. To do this, I run a loop from 1 to n, and for each step, I calculate how many spaces and hashtags should be used. Then, I print the spaces and hashtags accordingly to form the staircase. 
 
 ### Problem
   - [Problem Statement]()
