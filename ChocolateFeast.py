@@ -1,4 +1,3 @@
-#https://www.hackerrank.com/challenges/chocolate-feast/problem?isFullScreen=true
 def chocolateFeast(n, c, m):
     chocolates = wrappers = n // c
 

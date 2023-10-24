@@ -117,7 +117,7 @@ The repository contains the solutions to various HackerRank problems.Organize th
 >It takes a list of my scores and keeps tabs on how many times I break my own records. At the start, it sets my first score as both my best and worst. Then, as I play, if I get a higher score, it's like, "Whoa, new high score!" and that count goes up. And if I get a lower score, it's like, "Oops, new low score!" and the other count goes up. When I'm done, it tells me how many times I aced it and how many times I slipped up.
 
 ### ChocolateFeast
-  - [Problem Statement]()
+  - [Problem Statement](https://www.hackerrank.com/challenges/chocolate-feast/problem?isFullScreen=true)
   - [Solution](./ChocolateFeast.py)
   
   
