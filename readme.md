@@ -367,15 +367,6 @@ The repository contains the solutions to various HackerRank problems.Organize th
   - Explanation: 
 >For calculating the number of occurrences of the letter 'a' in a repeated string. First, I count the occurrences of 'a' in the original string 's'. Then, I find how many times the string 's' repeats fully in the first 'n' characters and count the 'a's in these full repetitions. Next, I calculate the remaining characters after the full repetitions and count the additional 'a's in these. Finally, I sum up the 'a's from full repetitions and the remaining characters, giving the total count of 'a's in the repeated string of length 'n'. It's a systematic way to find the total occurrences of 'a' in the repeated string.
 
-
-### viralAdvertising
-  - [Problem Statement](https://www.hackerrank.com/challenges/strange-advertising/problem?isFullScreen=true)
-  - [Solution](./viralAdvertising.py)
-  
-  
-  - Explanation: 
->abc
-
 ### saveThePrisoner
   - [Problem Statement](https://www.hackerrank.com/challenges/save-the-prisoner/problem?isFullScreen=true)
   - [Solution](./saveThePrisoner.py)
@@ -465,14 +456,6 @@ The repository contains the solutions to various HackerRank problems.Organize th
 >At specific time steps (e.g., s > 4), we decide whether to break the loop based on conditions like the grid reaching a stable state or specific patterns.
 >Finally, we create the result grid from new_grid, replacing timers with appropriate characters: 0 with ".", and any other value with "O."
 
-### ThehurdleRace
-  - [Problem Statement](https://www.hackerrank.com/challenges/the-hurdle-race/problem?isFullScreen=true)
-  - [Solution](./ThehurdleRace.py)
-  
-  
-  - Explanation: 
->abc
-
 ### TaumAndBday
   - [Problem Statement](https://www.hackerrank.com/challenges/taum-and-bday/problem?isFullScreen=true)
   - [Solution](./TaumAndBday.py)
@@ -497,161 +480,17 @@ The repository contains the solutions to various HackerRank problems.Organize th
   - Explanation: 
 >abc
 
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
+### ThehurdleRace
+  - [Problem Statement](https://www.hackerrank.com/challenges/the-hurdle-race/problem?isFullScreen=true)
+  - [Solution](./ThehurdleRace.py)
   
   
   - Explanation: 
 >abc
 
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
-  
-  
-  - Explanation: 
->abc
-
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
-  
-  
-  - Explanation: 
->abc
-
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
-  
-  
-  - Explanation: 
->abc
-
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
-  
-  
-  - Explanation: 
->abc
-
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
-  
-  
-  - Explanation: 
->abc
-
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
-  
-  
-  - Explanation: 
->abc
-
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
-  
-  
-  - Explanation: 
->abc
-
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
-  
-  
-  - Explanation: 
->abc
-
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
-  
-  
-  - Explanation: 
->abc
-
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
-  
-  
-  - Explanation: 
->abc
-
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
-  
-  
-  - Explanation: 
->abc
-
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
-  
-  
-  - Explanation: 
->abc
-
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
-  
-  
-  - Explanation: 
->abc
-
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
-  
-  
-  - Explanation: 
->abc
-
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
-  
-  
-  - Explanation: 
->abc
-
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
-  
-  
-  - Explanation: 
->abc
-
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
-  
-  
-  - Explanation: 
->abc
-
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
-  
-  
-  - Explanation: 
->abc
-
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
+### viralAdvertising
+  - [Problem Statement](https://www.hackerrank.com/challenges/strange-advertising/problem?isFullScreen=true)
+  - [Solution](./viralAdvertising.py)
   
   
   - Explanation: 
