@@ -25,6 +25,3 @@ def getTotalX(a, b):
         x += lcm_a
 
     return count
-
-#Logic:
-#First, I figure out the common factors in two sets of numbers using the GCD and LCM. Then, I go on a hunt for special numbers that fit between these sets, can be divided by both, and count how many of them there are.

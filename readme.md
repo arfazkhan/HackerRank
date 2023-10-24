@@ -62,7 +62,7 @@ The repository contains the solutions to various HackerRank problems.Organize th
 
   - [Solution](./betweenTwoSets.py)
   ### - Explanation: 
->kla kli kli klu 
+>First, I figure out the common factors in two sets of numbers using the GCD and LCM. Then, I go on a hunt for special numbers that fit between these sets, can be divided by both, and count how many of them there are.
 
 ### BiggerIsGreater
 
