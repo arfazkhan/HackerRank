@@ -11,5 +11,3 @@ def findDigits(n):
 
     return count
 
-#Logic:
-#In this function, I'm counting how many digits in a number evenly divide the number itself. I start with a count of zero and loop through each digit in the number. For each digit, I check if it's not zero and if dividing the number by the digit leaves no remainder. If both conditions are met, I increment the count. 
