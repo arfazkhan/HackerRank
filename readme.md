@@ -200,19 +200,20 @@
 
   - [Solution](./LisasWorkbook.py)
   ### - Explanation: 
->kla kli kli klu l=klu
+>We begin with a count of special_problems set to 0 and initialize the page number to 1. For each chapter's problems in the arr, we iterate through the problems using a loop. We check if the problem number matches the current page number, and if so, we increment the special_problems count. Additionally, we keep track of the page number, ensuring it advances when we reach either the end of a chapter or after k problems, making it easy to count special problems per page. Finally, we return the total count of special problems found.
 
 ### MigratoryBirds
 
   - [Solution](./MigratoryBirds.py)
   ### - Explanation: 
->kla kli kli klu l=klu
+>To find the most frequently sighted bird species from a list. Using a Counter, we tally the occurrences of each bird. Then find the maximum count among the bird species. If there are multiple birds with the highest count, we select the one with the lowest ID, which is the most frequent. This approach finds and returns the ID of the most commonly spotted bird.
 
 ### MinimumDistances
 
   - [Solution](./MinimumDistances.py)
   ### - Explanation: 
->kla kli kli klu l=klu
+>I start by initializing the minimum distance as infinity and creating an empty dictionary to store the last position of each element in the array. Then, I iterate over the array. For each element, I check if it’s already in the dictionary, which means I’ve seen it before. If it is, I calculate the distance between its current position and the last position where I saw it, and update the minimum distance if this new distance is smaller. Whether or not the element was in the dictionary, I update its last seen position in the dictionary to be its current position. After going through all elements, if the minimum distance is still infinity, it means I didn’t find any pair of identical elements, so I return -1. Otherwise, I return the minimum distance.
+
 
 ### MinMaxSum
 
