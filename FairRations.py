@@ -1,6 +1,3 @@
-#https://www.hackerrank.com/challenges/fair-rations/problem?isFullScreen=true
-
-
 def fairRations(B):
     odd = [i for i, b in enumerate(B) if b % 2 == 1]
 

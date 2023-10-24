@@ -197,7 +197,7 @@ The repository contains the solutions to various HackerRank problems.Organize th
 >In this code, I'm finding the minimum number of deletions needed to make all elements in an array equal. First, I create a dictionary to count the occurrences of each element, and then identify the most frequently occurring element. The deletions required will be the total number of elements minus the count of the most frequent element. This approach efficiently helps me determine the minimal deletions to equalize the array. It's like figuring out how many elements I need to remove to have them all the same
 
 ### extraLongFactorials
-  - [Problem Statement]()
+  - [Problem Statement](https://www.hackerrank.com/challenges/extra-long-factorials/submissions/code/352006714)
   - [Solution](./extraLongFactorials.py)
   
   
@@ -206,7 +206,7 @@ The repository contains the solutions to various HackerRank problems.Organize th
 
 
 ### FairRations
-  - [Problem Statement]()
+  - [Problem Statement](https://www.hackerrank.com/challenges/fair-rations/problem?isFullScreen=true)
   - [Solution](./FairRations.py)
   
   
