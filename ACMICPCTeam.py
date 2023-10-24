@@ -1,5 +1,3 @@
-#ProblemStatement:
-#https://www.hackerrank.com/challenges/acm-icpc-team/problem?isFullScreen=true
 
 def acmTeam(topic):
     n = len(topic)
@@ -18,4 +16,3 @@ def acmTeam(topic):
                 team_count += 1
     
     return [max_topics, team_count]
-
