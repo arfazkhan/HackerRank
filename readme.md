@@ -119,22 +119,24 @@ The repository contains the solutions to various HackerRank problems.Organize th
 >kla kli kli klu l=klu
 
 ### designerPdfViewer
-
+  - [Problem Statement](https://www.hackerrank.com/challenges/diagonal-difference/problem)
   - [Solution](./designerPdfViewer.py)
   ### - Explanation: 
->kla kli kli klu l=klu
+>I Imagined this code as a tool for a game board. In my approach, I look at each row and add the value from the main diagonal and its mirror position on the secondary diagonal. Then, I find the absolute difference between these sums. It's like comparing special moves in a game, helping me figure out which diagonal strategy is more powerful.
 
 ### DivisibleSumPairs
-
+  - [Problem Statement](https://www.hackerrank.com/challenges/divisible-sum-pairs)
   - [Solution](./DivisibleSumPairs.py)
-  ### - Explanation: 
->kla kli kli klu l=klu
+  
+  
+  - Explanation: 
+>In this code, I'm counting pairs of numbers in a list that are divisible by "k". I go through each possible pair, checking if their sum is evenly divisible by "k". If it is, then the count is incremented. So, The function efficiently finds these pairs, which helps me to count how many pairs satisfy this condition. It's like quickly searching for compatible pairs in the list.
 
 ### Encryption
   - [Problem Statement](https://www.hackerrank.com/challenges/encryption)
   - [Solution](./Encryption.py)
   
-  
+
   - Explanation: 
 >We're encrypting a message by arranging its characters into a grid and then reading the characters column by column. We remove spaces from the message and calculate the grid's dimensions based on the square root of the message length, visualizing it as a rectangular layout. We then construct the encrypted message by iterating through the columns, collecting characters from the original message and separating words with spaces. This method efficiently transforms the message into an encrypted format for secure communication.
 
