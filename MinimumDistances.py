@@ -1,6 +1,3 @@
-#https://www.hackerrank.com/challenges/minimum-distances/problem?isFullScreen=true
-
-
 def minimumDistances(a):
     min_distance = float('inf')  
     element_positions = {}  
@@ -15,5 +12,3 @@ def minimumDistances(a):
         return -1  
     else:
         return min_distance
-
-
