@@ -450,37 +450,44 @@ The repository contains the solutions to various HackerRank problems.Organize th
   - Explanation: 
 >nitially, I take three inputs: a list s, which contains integers, and two integers d and m. The code initializes a count variable to 0 and uses a for loop to iterate through the list s, examining segments of length m. It ensures the loop stops before reaching the last m elements, ensuring there are enough elements to form a complete segment of length m. Inside the loop, the code extracts a contiguous segment of length m and calculates the sum of the elements within that segment using sum(segment). If the sum of the current segment equals the target value d, it increments the count by 1. Finally, the code returns the count, which represents the number of segments in the list s that have a sum equal to d and a length of m.
 
-### Problem
+### TheBombermanGame
   - [Problem Statement](https://www.hackerrank.com/challenges/bomber-man/problem?isFullScreen=true)
-  - [Solution](./s.py)
+  - [Solution](./TheBombermanGame.py)
+  
+  
+  - Explanation: 
+>In this code, we're simulating a game where a character moves across a grid placing bombs. The grid initially contains either empty spaces represented by "." or bombs represented by "O." The character follows a specific pattern as they place bombs and wait for them to explode. We use the variable s to represent time steps, starting from 0.
+>First, we initialize new_grid to keep track of the grid's state over time. Then, we go through each cell in the grid for each time step s.
+>For s = 0, we initialize new_grid based on the current state of the grid. If a cell is empty, we set it to 0, and if it contains a bomb, we set it to 1.
+>For s = 1, we increment the timer for cells that contain a bomb (value > 0).
+>For s > 1, we handle the case when s is even and odd differently. For even s, we increment the timer for all cells. For odd s, we simulate bomb explosions by checking the timer values. If a cell's timer reaches 3, it explodes, affecting adjacent cells.
+>The loop continues until s reaches the maximum of either 15 or n + 1. This ensures we capture the grid's state up to the given time n.
+>At specific time steps (e.g., s > 4), we decide whether to break the loop based on conditions like the grid reaching a stable state or specific patterns.
+>Finally, we create the result grid from new_grid, replacing timers with appropriate characters: 0 with ".", and any other value with "O."
+
+### ThehurdleRace
+  - [Problem Statement](https://www.hackerrank.com/challenges/the-hurdle-race/problem?isFullScreen=true)
+  - [Solution](./ThehurdleRace.py)
   
   
   - Explanation: 
 >abc
 
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
+### TaumAndBday
+  - [Problem Statement](https://www.hackerrank.com/challenges/taum-and-bday/problem?isFullScreen=true)
+  - [Solution](./TaumAndBday.py)
   
   
   - Explanation: 
->abc
+>This function takes the input for  the number of black gifts (b), the number of white gifts (w), the cost of a black gift (bc), the cost of a white gift (wc), and the cost to convert one color gift to the other color (z). It calculates and returns the minimum cost to purchase the gifts for a birthday celebration. The function determines whether it's more cost-effective to buy gifts of one color and convert some to the other color or to simply buy gifts as is, depending on the given costs and conversion expense (z). The goal is to minimize the overall cost while meeting the gift requirements for the celebration.
 
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
+### timeConversion
+  - [Problem Statement](https://www.hackerrank.com/challenges/time-conversion/problem?isFullScreen=true)
+  - [Solution](./timeConversion.py)
   
   
   - Explanation: 
->abc
-
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
-  
-  
-  - Explanation: 
->abc
+>I'm converting time from 12-hour to 24-hour format. I quickly check if it's AM or PM by looking at the last two characters of the input string. If it's PM, I add 12 hours, if necessary and ensure the result stays within 24 hours. If it's AM, I convert the hours accordingly. Then, I format the output with leading zeros for a neat result. 
 
 ### Problem
   - [Problem Statement]()
