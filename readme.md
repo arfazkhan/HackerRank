@@ -44,8 +44,8 @@
 
   - [Solution](./AVeryBigSum.py)
   ### - Explanation: 
-        kla kla kli kli klu l=klu
-
+        This code calculates the sum of all the numbers in a given list (ar). It initializes a variable total_sum to 0, then iterates through the list, adding each number to total_sum. Finally, it returns the total sum of all the numbers in the input list.
+        
 ### beautifulDays
 
   - [Solution](./beautifulDays.py)
