@@ -1,6 +1,3 @@
-#ProblemStatement:
-#https://www.hackerrank.com/challenges/birthday-cake-candles/problem?isFullScreen=true
-
 def breakingRecords(scores):
     max_score = scores[0]
     min_score = scores[0]
