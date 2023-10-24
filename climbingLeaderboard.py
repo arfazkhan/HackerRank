@@ -1,6 +1,3 @@
-#ProblemStatement:
-#https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem?isFullScreen=true
-
 def climbingLeaderboard(ranked, player):
     result = []
     ranked = list(dict.fromkeys(ranked))  
