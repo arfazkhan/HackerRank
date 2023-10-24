@@ -1,6 +1,3 @@
-#ProblemStatement:
-#https://www.hackerrank.com/challenges/circular-array-rotation/problem?isFullScreen=true
-
 def circularArrayRotation(a, k, queries):
     n = len(a)
     effective_rotation = k % n
