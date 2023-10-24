@@ -296,7 +296,7 @@ The repository contains the solutions to various HackerRank problems.Organize th
 
 
 ### MinMaxSum
-  - [Problem Statement]()
+  - [Problem Statement](https://www.hackerrank.com/challenges/mini-max-sum/problem?isFullScreen=true)
   - [Solution](./MinMaxSum.py)
   
   
