@@ -1,6 +1,3 @@
-#ProblemStatement:
-#https://www.hackerrank.com/challenges/find-digits/problem?isFullScreen=true
-
 def findDigits(n):
     count = 0  
     
@@ -10,4 +7,3 @@ def findDigits(n):
             count += 1
 
     return count
-
