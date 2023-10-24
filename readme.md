@@ -77,7 +77,7 @@ The repository contains the solutions to various HackerRank problems.Organize th
 >I start by converting the array into a set for faster lookups. Then, I iterate over each element in the array. For each element, I check if the element incremented by 'd' and the element incremented by '2d' are both present in the set. If they are, it means I've found a beautiful triplet, so I increment my count. This approach allows me to find all beautiful triplets in the array with just a single pass, significantly improving the efficiency of the algorithm.
 
 ### betweenTwoSets
-  - [Problem Statement]()
+  - [Problem Statement](https://www.hackerrank.com/challenges/between-two-sets/problem?isFullScreen=true)
   - [Solution](./betweenTwoSets.py)
   
   
@@ -85,7 +85,7 @@ The repository contains the solutions to various HackerRank problems.Organize th
 >First, I figure out the common factors in two sets of numbers using the GCD and LCM. Then, I go on a hunt for special numbers that fit between these sets, can be divided by both, and count how many of them there are.
 
 ### BiggerIsGreater
-  - [Problem Statement]()
+  - [Problem Statement](https://www.hackerrank.com/challenges/bigger-is-greater/problem)
   - [Solution](./BiggerIsGreater.py)
   
   
