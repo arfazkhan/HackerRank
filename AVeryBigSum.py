@@ -1,6 +1,3 @@
-#Problem Statement:
-#https://www.hackerrank.com/challenges/a-very-big-sum/problem?isFullScreen=true
-
 def aVeryBigSum(ar):
     total_sum = 0
 

@@ -45,7 +45,7 @@ The repository contains the solutions to various HackerRank problems.Organize th
 
 
 ### AppleAndOrange
-  - [Problem Statement]()
+  - [Problem Statement](https://www.hackerrank.com/challenges/apple-and-orange/problem?isFullScreen=true)
   - [Solution](./AppleAndOrange.py)
   
   
@@ -53,7 +53,7 @@ The repository contains the solutions to various HackerRank problems.Organize th
 >In this code, First the values are read for the house and tree positions (s, t), the apple and orange tree positions (a, b), the number of apples and oranges (m, n), and the lists of apple and orange distances. Then, we count how many apples and oranges hit the house. If the distance from the tree (a or b) plus the fruit's distance (d) is within the range of the house (between s and t), we add 1 to the count. Finally, we get how many apples and oranges made it to the house
 
 ### AVeryBigSum
-  - [Problem Statement]()
+  - [Problem Statement](https://www.hackerrank.com/challenges/a-very-big-sum/problem?isFullScreen=true)
   - [Solution](./AVeryBigSum.py)
   
   
@@ -61,7 +61,7 @@ The repository contains the solutions to various HackerRank problems.Organize th
 >This code calculates the sum of all the numbers in a given list (ar). It initializes a variable total_sum to 0, then iterates through the list, adding each number to total_sum. Finally, it returns the total sum of all the numbers in the input list.
 
 ### beautifulDays
-  - [Problem Statement]()
+  - [Problem Statement](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem?isFullScreen=true)
   - [Solution](./beautifulDays.py)
   
   

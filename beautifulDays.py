@@ -1,6 +1,3 @@
-#ProblemStatement:
-#https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem?isFullScreen=true
-
 def beautifulDays(i, j, k):
     beautiful_count = 0 
     for day in range(i, j + 1):
@@ -10,5 +7,3 @@ def beautifulDays(i, j, k):
             beautiful_count += 1
     
     return beautiful_count
-
-
