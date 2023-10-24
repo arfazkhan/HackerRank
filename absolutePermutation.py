@@ -1,6 +1,3 @@
-#https://www.hackerrank.com/challenges/absolute-permutation/problem?isFullScreen=true
-
-
 def absolutePermutation(n, k):
     if k == 0:
         return [i for i in range(1, n + 1)]
@@ -19,4 +16,3 @@ def absolutePermutation(n, k):
             v += 1
 
     return ans
-
