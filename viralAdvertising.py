@@ -1,6 +1,3 @@
-#ProblemStatement:
-#https://www.hackerrank.com/challenges/strange-advertising/problem?isFullScreen=true
-
 def viralAdvertising(n):
     shared = 5  
     cumulative_likes = 0

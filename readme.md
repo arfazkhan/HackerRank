@@ -368,21 +368,21 @@ The repository contains the solutions to various HackerRank problems.Organize th
 >For calculating the number of occurrences of the letter 'a' in a repeated string. First, I count the occurrences of 'a' in the original string 's'. Then, I find how many times the string 's' repeats fully in the first 'n' characters and count the 'a's in these full repetitions. Next, I calculate the remaining characters after the full repetitions and count the additional 'a's in these. Finally, I sum up the 'a's from full repetitions and the remaining characters, giving the total count of 'a's in the repeated string of length 'n'. It's a systematic way to find the total occurrences of 'a' in the repeated string.
 
 
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
+### viralAdvertising
+  - [Problem Statement](https://www.hackerrank.com/challenges/strange-advertising/problem?isFullScreen=true)
+  - [Solution](./viralAdvertising.py)
   
   
   - Explanation: 
 >abc
 
-### Problem
-  - [Problem Statement]()
-  - [Solution](./s.py)
+### saveThePrisoner
+  - [Problem Statement](https://www.hackerrank.com/challenges/save-the-prisoner/problem?isFullScreen=true)
+  - [Solution](./saveThePrisoner.py)
   
   
   - Explanation: 
->abc
+>In this function, I'm determining which prisoner gets poisoned when distributing m sweets among n prisoners starting from prisoner s. First, I calculate the remaining sweets after distributing them equally among all prisoners using the modulo operation m mod n. Then, I find the position of the poisoned prisoner by adding the remaining sweets to the starting prisoner position (s−1) and taking the result n. If the calculated position is 0, indicating it exceeds the total number of prisoners, I set the poisoned prisoner to the last prisoner. This ensures a fair distribution of sweets among the prisoners and accurately identifies the prisoner who receives the poisoned sweet.
 
 ### Problem
   - [Problem Statement]()
